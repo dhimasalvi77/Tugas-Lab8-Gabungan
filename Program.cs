@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
-// Compiler version 4.0, .NET Framework 4.5
 
 
 namespace Dcoder
@@ -11,27 +10,27 @@ namespace Dcoder
     {
         public static void Main(string[] args)
         {
-            //Your code goes here
-            Console.WriteLine("Nama\t: Ivan Nur Ilham Syah");
-            Console.WriteLine("NIM\t: 19.11.2742");
-            Console.WriteLine("Kelas\t: 19 IF 03");
+            //Your code get here
+            Console.WriteLine("Nama\t: DHIMAS ALVI HIDAYAH");
+            Console.WriteLine("NIM\t: 19.11.2805");
+            Console.WriteLine("Kelas\t: 19 IF 04");
 
             KaryawanTetap karyawanTetap = new KaryawanTetap();
-            karyawanTetap.NIK = "2742";
-            karyawanTetap.Nama = "Ivann Syah";
-            karyawanTetap.GajiBulanan = 10000000;
+            karyawanTetap.NIK = "2805";
+            karyawanTetap.Nama = "DHIMAS";
+            karyawanTetap.GajiBulanan = 3000000;
 
             KaryawanHarian karyawanHarian = new KaryawanHarian();
-            karyawanHarian.NIK = "7422";
-            karyawanHarian.Nama = "Ilham Syah";
-            karyawanHarian.UpahPerJam = 60000;
+            karyawanHarian.NIK = "3457";
+            karyawanHarian.Nama = "DIAN NUR";
+            karyawanHarian.UpahPerJam = 10000;
             karyawanHarian.JumlahJamKerja = 8;
 
             Sales sales = new Sales();
-            sales.NIK = "4227";
-            sales.Nama = "Ilham Syah";
-            sales.JumlahPenjualan = 15;
-            sales.Komisi = 80000;
+            sales.NIK = "4854";
+            sales.Nama = "SYAFITRI";
+            sales.JumlahPenjualan = 10;
+            sales.Komisi = 50000;
 
             List<Karyawan> karyawan = new List<Karyawan>();
 
